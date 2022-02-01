@@ -1,0 +1,53 @@
+
+.root {
+-fx-background-color: #383838;
+}
+#mine {
+
+
+}
+
+
+#tile, #flag, #shown {
+    -fx-font: bold 18px "Arial";
+    -fx-text-fill: red;
+    //-fx-base: #154c79;
+    -fx-background-color: #154c79;
+    //-fx-border-color: #5F7796;
+    -fx-border-width: 2px;
+
+    //top, right, bottom and left border
+
+    //-fx-border-color: white #7b7b7b #7b7b7b white;
+    -fx-border-color: linear-gradient(to left top, #415267 0%/*bottom-right color*/, #8c9eb6 100% /*top-left color*/);
+
+    -fx-background-color: linear-gradient(#154c79, #0d314e);
+    -fx-background-color: linear-gradient(to left top, #195a8f 0%/*bottom-right color*/, #154c79 100% /*top-left color*/);
+}
+
+#tile:hover, #flag:hover {
+    -fx-background-color: #0d314e;
+}
+
+#shown {
+    -fx-font: bold 18px "Arial";
+    -fx-text-fill: red;
+    -fx-background-color: #383838;
+    //#FFB61E a yellow color my brother likes
+}
+
+.button:pressed {
+    -fx-background-color: #0d314e;
+}
+.button:hover {
+    -fx-background-color: #0d314e;
+}
+
+.rectangle {
+    -fx-fill: yellow;
+    -fx-stroke: green;
+    -fx-stroke-width: 5;
+    -fx-stroke-dash-array: 12 2 4 2;
+    -fx-stroke-dash-offset: 6;
+    -fx-stroke-line-cap: butt;
+}
